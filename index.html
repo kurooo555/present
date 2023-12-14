@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greetings</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Menghubungkan ke file CSS -->
+</head>
+<body>
+  <div class="container" id="content1">
+    <h1>Hello there Oktafiana Vela Andarini</h1>
+    <button onclick="showMessage()">Click Me</button>
+  </div>
+
+  <div class="container" id="content2" style="display: none;">
+    <p id="message" class="romantic-font">I Will Waiting For You No Matter How Long It Takes</p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('content1').style.display = 'none';
+      document.getElementById('content2').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
